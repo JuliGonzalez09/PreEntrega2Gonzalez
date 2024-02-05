@@ -8,7 +8,7 @@
   
   body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Russo One', sans-serif;
   }
   
   h1 {
@@ -51,7 +51,7 @@
   }
   
   button:hover {
-    background-color: rgb(218, 44, 44);
+    background-color: rgb(131, 34, 34);
   }
   
   .container {
@@ -64,8 +64,8 @@
   }
   
   header {
-    background-color: rgb(182, 181, 255);
-    padding: 10px;
+    background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='50' height='50' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform=''%3E%3Crect width='100%25' height='100%25' fill='rgba(254, 178, 178,1)'/%3E%3Cpath d='M20 5a 20 20 0 0 1 40 0h10a 10 10 0 0 1-20 0a 10 10 0 0 0-20 0a 10 10 0 0 1-20 0a 10 10 0 0 0-20 0h-10a 20 20 0 0 1 40 0z' fill='rgba(255, 250, 240,1)'/%3E%3Cpath d='M0 25a 20 20 0 0 1 40 0h10a 10 10 0 0 1-20 0a 10 10 0 0 0-20 0a 10 10 0 0 1-20 0z' fill='rgba(254, 215, 215,1)'/%3E%3Cpath d='M20 45a 20 20 0 0 1 40 0h10a 10 10 0 0 1-20 0a 10 10 0 0 0-20 0a 10 10 0 0 1-20 0a 10 10 0 0 0-20 0h-10a 20 20 0 0 1 40 0z' fill='rgba(255, 250, 240,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ")
+
   }
   
   @media (min-width: 480px) {
@@ -79,9 +79,10 @@
     margin: 0;
     padding: 25px 30px;
     font-weight: bolder;
-    color: rgb(218, 44, 44);
+    color: rgb(150, 0, 0);
     font-size: 2.5em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Russo One', sans-serif;
+
   }
   
   header .container {
@@ -108,7 +109,7 @@
   }
   
   header a:hover {
-    color: rgb(218, 44, 44);
+    color: rgb(185, 0, 0);
   }
   
   #hero {
@@ -117,8 +118,8 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
-    background-image: url("../css/images/img7.jpeg");
+    height: 75vh;
+    background-image: url("../css/images/doodad.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -131,7 +132,7 @@
   }
   
   #hero h1 {
-    color: rgb(218, 44, 44);
+    color: rgb(122, 0, 0);
   }
   
   #hero button {
@@ -171,8 +172,8 @@
     flex: 1;
     background-image: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(94, 0, 0, 0.5),
+      rgba(0, 45, 128, 0.5)
     ),
     url("../css/images/img4.jpg");
     background-position: center;
@@ -185,8 +186,8 @@
   .textitos:nth-child(2) {
     background-image: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(94, 0, 0, 0.5),
+      rgba(0, 45, 128, 0.5)
     )
     , url("../css/images/img5.jpg");
     background-position: center;
@@ -199,11 +200,11 @@
   .textitos:nth-child(3) {
     background-image: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(94, 0, 0, 0.5),
+      rgba(0, 45, 128, 0.5)
     )
-    , url("../css/images/img1.jpg");
-    background-position: center;
+    , url("../css/images/img9.jpeg");
+    background-position: auto;
     background-size: cover;
     padding: 30px;
     margin: 15px;
@@ -212,7 +213,7 @@
   
   #pack {
     background-color: rgb(30, 30, 30);
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
   }
   
@@ -223,7 +224,7 @@
   
   #pack .container h3 {
     font-size: 2.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Russo One', sans-serif;
   }
   
   #pack h2 {
@@ -235,8 +236,8 @@
   .pack:nth-child(1) {
     background-image: linear-gradient(
       0deg,
-      rgba(168, 0, 0, 0.185),
-      rgba(168, 0, 0, 0.185)
+      rgba(94, 0, 0, 0.5),
+      rgba(0, 45, 128, 0.5)
     )
     , url("../css/images/img2.jpg");
     background-position: center;
@@ -250,8 +251,8 @@
   .pack:nth-child(2) {
     background-image: linear-gradient(
       0deg,
-      rgba(168, 0, 0, 0.185),
-      rgba(168, 0, 0, 0.185)
+      rgba(94, 0, 0, 0.5),
+      rgba(0, 45, 128, 0.5)
     )
     , url("../css/images/img5.jpg");
     background-position: center;
@@ -264,8 +265,8 @@
   .pack:nth-child(3) {
     background-image: linear-gradient(
       0deg,
-      rgba(168, 0, 0, 0.185),
-      rgba(168, 0, 0, 0.185)
+      rgba(94, 0, 0, 0.5),
+      rgba(0, 45, 128, 0.5)
     )
     , url("../css/images/img3.jpg");
     background-position: center;
@@ -322,7 +323,7 @@
   }
   
   footer {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(30, 30, 30);
   }
   
 
@@ -380,7 +381,7 @@ footer p{
 }
 
 #intro .img-container {
-    background-image: linear-gradient(0deg, rgba(177, 85, 85, 0.247), rgba(0, 0, 0, 0)),
+    background-image: linear-gradient(0deg, rgba(105, 0, 0, 0.247), rgba(11, 0, 105, 0)),
       url("../css/images/img9.jpeg");
     background-size: cover;
     background-position: center;
@@ -400,7 +401,7 @@ footer p{
 
     #intro .img-container {
         width: 100%;
-        background-size: cover;  /* Añadir esta línea para mantener el tamaño de la imagen */
+        background-size: cover;  
     }
 }
 
@@ -427,11 +428,11 @@ footer p{
     }
 
     #presentacion .img-container{
-        background-image: linear-gradient(
-            0deg,
-            rgba(56, 56, 56, 0.5),
-            rgba(139, 0, 0, 0.5)
-        ), url("../css/images/img8.jpeg");
+      background-image: linear-gradient(
+        0deg,
+        rgba(94, 0, 0, 0.5),
+        rgba(0, 45, 128, 0.5)
+      ), url("../css/images/img8.jpeg");
         display: flex;
         background-size: cover;
         background-position: center;
@@ -461,11 +462,11 @@ footer p{
     }
       
     #presentacion2 .img-container {
-        background-image: linear-gradient(
-          0deg,
-          rgba(131, 0, 0, 0.5),
-          rgba(54, 54, 54, 0.5)
-        ), url("../css/images/img3.jpg");
+      background-image: linear-gradient(
+        0deg,
+        rgba(94, 0, 0, 0.5),
+        rgba(0, 45, 128, 0.5)
+      ), url("../css/images/img3.jpg");
         background-size: cover;
         background-position: center;
         display: flex;
@@ -504,11 +505,11 @@ footer p{
     }
 
     #presentacion3 .img-container{
-        background-image: linear-gradient(
-            0deg,
-            rgba(70, 0, 0, 0.5),
-            rgba(255, 0, 0, 0.5)
-        ), url("../css/images/img4.jpg");
+      background-image: linear-gradient(
+        0deg,
+        rgba(94, 0, 0, 0.5),
+        rgba(0, 45, 128, 0.5)
+      ), url("../css/images/img4.jpg");
         display: flex;
         background-size: cover;
         background-position: center;
@@ -528,18 +529,25 @@ footer p{
 
 
 .contacto{
+
     background-image: url(../css/images/img9.jpeg);
     background-position: center;
     background-size: cover;
+    
 }
 
 .form{
     padding: 250px 10px;
     margin: auto;
     width: 450px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(255, 112, 112, 0.6);
     box-sizing: border-box;
     border-radius: 15px;
+    background-image: linear-gradient(
+      0deg,
+      rgba(94, 0, 0, 0.5),
+      rgba(0, 45, 128, 0.5)
+    )
     
 }
 
@@ -549,7 +557,7 @@ form h2{
     margin: 0;
     font: 30px;
     margin-bottom: 40px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Russo One', sans-serif;
 
 }
 
